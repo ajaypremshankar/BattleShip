@@ -130,7 +130,6 @@ public final class AppUtil {
 
 		int column = AppUtil.getIntAt(1, point);
 		char row = AppUtil.getCharAt(0, point);
-
 		Cell cell = new Cell(row, column);
 		return cell;
 	}
